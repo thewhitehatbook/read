@@ -11,14 +11,13 @@
 
 ZIKOLA.register({
   id: 'ard-alghomoud',
-  title: 'أرض الغموض',
-  author: 'محمد العراقي',
+  title: 'القبعة البيضاء',
+  author: 'سجاد ثامر',
   category: 'فانتازيا',          // رواية / فانتازيا / رعب / تاريخي / اجتماعي / أخرى
   description: 'رحلة في عالمٍ مليء بالأسرار، حيث يكتشف البطل أن أرضه تخفي أكثر مما تُظهر.',
-  cover: '',                     // مثال: 'covers/ard.jpg'
+  cover: 'cover1.jpeg',                     // مثال: 'covers/ard.jpg'
 
   chapters: [
-    { number: 1, title: 'الحلقة الأولى: البداية', pdf: 'pdfs/sample/b1-ch1.pdf' },
-    { number: 2, title: 'الحلقة الثانية: الطريق',  pdf: 'pdfs/sample/b1-ch2.pdf' },
+    { number: 1, title: 'الحلقة الأولى', pdf: 'pdfs/sample/b1-ch1.pdf' },
   ],
 });
